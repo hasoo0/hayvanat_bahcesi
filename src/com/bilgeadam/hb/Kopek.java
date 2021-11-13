@@ -34,7 +34,7 @@ public class Kopek extends Hayvan {
     @Override // bu override olsa da calisir olmasa da calisir. coda bakarken anlasila bilsin diye yaziliyor.
     public String toString() {
         return  "Ad: " +getAd() + "\n" +
-                "Agirlik: " +getAgirlik() + "\n" +
+                "Agirlik: " +getAgirlik() + " kg " + "\n" +
                 "Uzunluk: " +getUzunluk() +"\n" +
                 "Cins: " + getKopekCins() +"\n" +
                 "Kuyruk Uzunlugu: " + getKuyrukUzunlugu();
